@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--音乐列表-->
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lv_music"
+    android:background="@drawable/bg_blue"
+    android:divider="@drawable/divider">
+
+    <!--divider是每个view的下划线-->
+</ListView>

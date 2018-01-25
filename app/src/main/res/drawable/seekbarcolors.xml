@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<!-- 
+    	图层的第一层, 这个将作为在进度条没有到达时的显示效果
+     -->
+    <item>
+        <shape>
+            <!-- 
+            	<corners>: 两端圆角
+            		radius:圆角半径值
+             -->
+            <corners android:radius="2dip" />
+            <!-- 
+            	<solid>:  填充
+            		color: 指定颜色
+             -->
+            <solid android:color="#33DDDDDD"/>
+        </shape>
+    </item>
+    <!-- 
+    	图层的第二层, 这个将作为在进度条到达后的显示效果
+     -->
+    <item>
+        <clip>
+            <shape>
+                <corners android:radius="2dip" />
+				<solid android:color="#99EEEE00"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
